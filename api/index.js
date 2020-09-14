@@ -1,3 +1,5 @@
 export default (req, res) => {
-	res.send("Fleurs roses")
+	res.json({
+		message: "Les fleurs sont roses et les jardins enchantés."
+	})
 }
